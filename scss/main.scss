@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+.first {
+  background-color: red;
+  border-radius: 15px;
+  padding: 10px;
+
+  &__heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  &__parag {
+    background-color: blue;
+    font-size: 2rem;
+
+    &__section {
+      color: red;
+    }
+  }
+
+  .first__parag--yellow {
+    color: yellow;
+  }
+
+  .first__parag--green {
+    color: lightgreen;
+  }
+}

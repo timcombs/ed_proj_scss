@@ -1,0 +1,32 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.first {
+  background-color: red;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.first__heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first__parag {
+  background-color: blue;
+  font-size: 2rem;
+}
+
+.first__parag__section {
+  color: red;
+}
+
+.first .first__parag--yellow {
+  color: yellow;
+}
+
+.first .first__parag--green {
+  color: lightgreen;
+}
+/*# sourceMappingURL=main.css.map */
